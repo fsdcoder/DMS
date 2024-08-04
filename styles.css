@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 0%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  .container {
+    background: rgb(81, 81, 81);
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    width: 500%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    animation: pulse 1.5s infinite;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
+  
+  form input:focus, form select:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+    outline: none;
+  }
+  
+  button {
+    background-color: #f70707;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e00000;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  #appointments-list, #doctors-list {
+    margin-top: 20px;
+  }
+  
+  .appointment, .doctor {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color: #333;
+    animation: slideIn 0.5s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .appointment {
+    background-color: #e0f7fa;
+  }
+  
+  .doctor {
+    background-color: #f1f8e9;
+  }
+  
+  .booked {
+    background-color: #ff2600;
+    color: #fff;
+  }
+  
